@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Esto es la página de registro, introduzca las credenciales</h1>
+    <p>Correo electrónico: <input type="email" name="mail" id="mail"></p>
+    <p>Contraseña: <input type="text" name="passwd" id="passwd" onchange="check()"></p>
+    <p>La contraseña tiene que tener mínimo 8 carácteres.</p>
+    <button onclick="check()">Registrarse</button>
+</body>
+</html>
